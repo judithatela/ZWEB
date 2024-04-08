@@ -1,0 +1,44 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #87ceeb;
+  padding: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #333;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  section {
+    margin: 10px;
+    padding: 10px;
+  }
+}
